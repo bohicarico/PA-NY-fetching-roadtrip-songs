@@ -1,0 +1,19 @@
+# Ignore generated audio files
+data/
+*.mp3
+*.wav
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore VS Code settings that shouldn't be shared
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
