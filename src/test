@@ -1,0 +1,5 @@
+import yt_dlp
+
+with yt_dlp.YoutubeDL({}) as ydl:
+    info = ydl.extract_info("https://www.youtube.com/watch?v=dQw4w9WgXcQ", download=False)
+    print(info["title"])
